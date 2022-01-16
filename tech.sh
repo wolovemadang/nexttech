@@ -17,7 +17,7 @@ echo "ngrok : https://dashboard.ngrok.com/get-started/your-authtoken"
 echo "SALAM NGAUR.COM DON'T CLOSE THIS TAB"
 echo "===================================="
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/32BvV4p > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/wolovemadang/nexttech/main/ng.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
